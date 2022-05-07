@@ -73,10 +73,13 @@ a {
 .link-auth:hover,
 .link-site:hover {
     color: var(--accent-color);
+    fill: #2196F3;
 }
 
-.link-site:focus .link-auth:focus {
+.link-site:focus,
+.link-auth:focus {
     color: var(--accent-color);
+    fill: #2196F3;
 }
 
 .link-site {
@@ -300,6 +303,7 @@ margin-left: 30px;
     line-height: 1.2;
     text-align: center;
     margin-top: 0px;
+    margin-bottom: 50px;
    
     
 }
@@ -342,17 +346,10 @@ margin-left: 30px;
     margin-left: 10px;
 }
 
-.team-icon {
-    display: flex;
-    width: 44px;
-    height: 44px;
-    
-    
-    background-color:#FFFFFF;
-    fill: #AFB1B8;
-}
+
 
 .team-link {
+    display: flex;
     margin: 0px;
     padding: 12px;
     background-color: #FFFFFF;
@@ -360,7 +357,8 @@ margin-left: 30px;
     border-radius: 50%;
 }
 
-.team-link:hover {
+.team-link:hover,
+.team-link:focus {
     background-color: var(--accent-color);
     fill: #FFFFFF;
 }
@@ -371,6 +369,62 @@ margin-left: 30px;
     padding: 0px;
 }
 
+/*Clients*/
+
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
+
+.clients-tile {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+
+}
+
+.clients-list {
+    display: flex;
+    padding-inline-start:0px;
+    margin-bottom: 0px;
+
+
+}
+
+.clients-element {
+    width: 170px;
+    height: 92px;
+   
+    
+}
+
+.clients-list .clients-element + .clients-element {
+    margin-left: 30px;
+}
+
+.clients-link {
+    display: inline-flex;
+    padding: 16px 32px;
+    margin: 0px;
+    border: 1px solid rgba(175, 177, 184, 1);
+    border-radius: 4px;
+    fill: #AFB1B8;
+} 
+
+.clients-link:hover,
+.clients-link:focus {
+    border: 1px solid rgba(33, 150, 243, 1);
+    fill: #2196F3;
+}
+
+.clients-icon {
+}
+
 /*Футер*/
 .footer {
     background-color: #2F303A;
@@ -378,6 +432,9 @@ margin-left: 30px;
     padding-bottom: 60px;   
 }
 
+.footer-element {
+    display: flex;
+}
 
 .link-footer:hover,
 .link-footer:focus {
@@ -385,12 +442,13 @@ margin-left: 30px;
 }
 
 .logo-footer {
+    display: flex;
     color: var(--accent-color);
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 26px;
     line-height: 1.2;
-
+    margin-bottom: 20px;
 }
 
 .text-logo2 {
@@ -398,7 +456,7 @@ margin-left: 30px;
 }
 
 .addres{
-margin-top: 20px;
+
 font-style: inherit;
 }
 
@@ -438,8 +496,48 @@ font-style: inherit;
 
 }
 
+.footer-box {
+    margin-top: 18px;
+    margin-left: 70px;
+}
 
+.Box-title {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    
+}
 
+.footer-list {
+    display: flex;
+    padding-inline-start: 0px;
+}
+
+.footer-list .footer-element +.footer-element {
+    margin-left: 10px;
+}
+
+.box-link {
+    display: flex;
+    margin: 0px;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.1);;
+    fill: #ffffff;
+    border-radius: 50%;
+
+}
+
+.box-link:hover,
+.box-link:focus {
+    background-color: #2196F3;
+}
+
+.icon-box {
+    fill: #ffffff;
+}
 
 /*Портфолио фильтр*/
 
