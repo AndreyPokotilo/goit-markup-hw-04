@@ -497,23 +497,27 @@ font-style: inherit;
 }
 
 .footer-box {
-    margin-top: 18px;
+    
     margin-left: 70px;
+    padding-top: 18px;
 }
 
 .Box-title {
+    display: flex;
     color: #ffffff;
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     margin-top: 0px;
     margin-bottom: 20px;
+
     
 }
 
 .footer-list {
     display: flex;
     padding-inline-start: 0px;
+      margin: 0px;    
 }
 
 .footer-list .footer-element +.footer-element {
