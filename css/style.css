@@ -148,8 +148,10 @@ a {
     rgba(47, 48, 58, 0.4), 
     rgba(47, 48, 58, 0.4) ) , 
     url(../img/Img.jpg);
-    
-    
+}
+
+.hero:hover {
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .hero-text {
